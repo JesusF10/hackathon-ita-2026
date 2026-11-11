@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local secrets and generated artifacts (stack-independent)
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+node_modules/
+.next/
+.DS_Store
+Thumbs.db
+/data/private/
+/data/generated/
+
+# Generated technical documentation and type-check cache
+.ty_cache/

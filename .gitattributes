@@ -1,0 +1,2 @@
+# Preserve source documents as binary; do not normalize or diff their internal text.
+*.pdf binary
